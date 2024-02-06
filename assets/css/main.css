@@ -1589,6 +1589,8 @@ input, select, textarea {
 			width: calc(50% - 10px); /* 50% width with a gap of 10px between items */
 			margin-bottom: 20px; /* Add some space between rows */
 			box-sizing: border-box; /* Include padding and border in the element's total width and height */
+			max-width: 100%;
+
 		}
 
 		#main #contact {
@@ -1599,6 +1601,13 @@ input, select, textarea {
 			max-width: 100%;
 	
 		}
+
+		#main #work .post img{
+			max-width: 100%;
+			height: auto;
+			display: block; /* Ensure image does not have default inline behavior */
+			margin: 0 auto; /* Center image horizontally */
+		  }
 		
 		@media (max-width: 768px) {
 			#main #work .post {
