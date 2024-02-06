@@ -1604,7 +1604,7 @@ input, select, textarea {
 
 		#main #work .post img{
 			max-width: 100%;
-			height: auto;
+			/* height: auto; */
 			display: block; /* Ensure image does not have default inline behavior */
 			margin: 0 auto; /* Center image horizontally */
 		  }
